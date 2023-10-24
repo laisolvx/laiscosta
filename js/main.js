@@ -44,8 +44,6 @@ skillsHeader.forEach((el) => {
     el.addEventListener('click', toggleSkills)
 })
 
-
-
 let swiper = new Swiper(".projetos__container", {
     cssMode: true,
     loop: true,
@@ -60,7 +58,6 @@ let swiper = new Swiper(".projetos__container", {
     },
 
 });
-
 
 const sections = document.querySelectorAll('section[id]')
 
